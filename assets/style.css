@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Header*/
+header {
+    background-color: lightgreen;
+}
+header h1{
+    font-family: "dancing script";
+}
+
+/*main content*/
+main {
+    background-color: lightsalmon;
+    flex: 1 0 auto;
+}
+
+/*footer*/
+footer {
+    background-color: lightcoral;
+}
